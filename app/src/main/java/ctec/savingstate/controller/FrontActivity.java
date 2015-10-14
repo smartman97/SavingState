@@ -53,6 +53,7 @@ public class FrontActivity extends Activity
                 saveState.setUserName(name);
                 saveState.setIsTired(tired);
 
+                //Open new Screen
                 Intent newScreenIntent = new Intent(clickView.getContext(), BackActivity.class);
                 startActivityForResult(newScreenIntent, 0);
             }
