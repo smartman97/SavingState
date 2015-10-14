@@ -31,7 +31,7 @@ public class BackActivity extends AppCompatActivity
 
     private void loadContent()
     {
-        userText.setText(saveState.getUserName() + " is " + saveState.getAge() + " years old and their states is " + saveState.getIsTired());
+        userText.setText(saveState.getUserName() + " is " + saveState.getAge() + " years old and it is " + saveState.getIsTired() + " that they are tired.");
     }
 
     private void setupListeners()
