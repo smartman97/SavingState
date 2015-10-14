@@ -1,4 +1,4 @@
-package ctect.savingstate.model;
+package ctec.savingstate.model;
 
 import android.app.Application;
 
@@ -48,3 +48,5 @@ public class AndroidSaveState extends Application
         this.age = age;
     }
 }
+
+
